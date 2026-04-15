@@ -1,0 +1,1 @@
+# salary_calculator_class_test
