@@ -84,4 +84,13 @@ print("uif deductions:", uif)
 print("pay as you earn:",monthlytax)
 print("med aid contribution:",medical_aid_premium)
 print("--------------------")
-print("net salary:", net_salary)
+#print("net salary:",f{net_salary:.2f})
+#price = 19.999
+#print(f"{price:.2f}")
+#print(f"net salary: R{net_salary:.3f}")
+#value = net_salary
+#formatted_value = "{:.2f}".format(value)
+#print("net salary:",formatted_value)
+number = net_salary
+#print("net salary:r%.2f" % number)
+print(f" net salary: R {number:.0f}")
